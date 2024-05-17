@@ -1,0 +1,30 @@
+/project_name
+│
+├── /app
+│   ├── /static       # Arquivos estáticos (CSS, JS, imagens)
+│   ├── /templates    # Templates HTML
+│   ├── /main         # Módulo principal da aplicação
+│   │   ├── __init__.py
+│   │   ├── routes.py
+│   │   ├── models.py
+│   │   └── forms.py
+│   ├── /auth         # Módulo de autenticação
+│   │   ├── __init__.py
+│   │   ├── routes.py
+│   │   ├── models.py
+│   │   └── forms.py
+│   ├── __init__.py   # Inicialização da aplicação
+│   ├── extensions.py # Extensões (DB, Bcrypt, etc.)
+│   └── config.py     # Configurações da aplicação
+│
+├── tests             # Testes unitários e de integração
+│   ├── __init__.py
+│   ├── test_auth.py
+│   └── test_main.py
+│
+├── venv              # Ambiente virtual (pode estar oculto)
+├── .env              # Variáveis de ambiente
+├── .gitignore        # Arquivos a serem ignorados pelo git
+├── requirements.txt  # Dependências do projeto
+├── README.md         # Documentação do projeto
+└── manage.py         # Script de gerenciamento (migrações, servidor)
