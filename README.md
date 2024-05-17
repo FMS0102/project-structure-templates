@@ -1,2 +1,7 @@
-# project-structure-templates
-A comprehensive collection of project structure templates for various programming languages and frameworks. This repository provides well-organized and scalable folder structures to kickstart your projects, ensuring best practices and maintainability from the ground up.
+# Modelos de Estrutura de Projeto
+
+Uma coleção abrangente de modelos de estrutura de projeto para diversas linguagens de programação e frameworks. Este repositório oferece estruturas de pastas bem organizadas e escaláveis para iniciar seus projetos, garantindo as melhores práticas e facilidade de manutenção desde o início.
+
+## Conteúdo
+
+- [Python/Flask](templates/python/flask)
